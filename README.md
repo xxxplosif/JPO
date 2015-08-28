@@ -22,3 +22,7 @@ Générateur de mots de passe aléatoires
 
 - ascii alt+200 etc. équivalent
 
+## Changelog
+
+- [x] obliger les deux champs à être remplis avec des require
+

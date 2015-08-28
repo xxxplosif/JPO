@@ -26,8 +26,8 @@
         <h1><a href="./">Générateur de mots de passe aléatoires</a></h1>
         <form action="" method="POST">
             <span>Longueur aléatoire</span>
-            <input type="number" min="1" max="100" name="min_length" placeholder="longeur minimale" <?php if(isset($min_length)) echo 'value="'.$min_length.'"'; ?>/>
-            <input type="number" min="1" max="100" name="max_length" placeholder="longeur maximale" <?php if(isset($max_length)) echo 'value="'.$max_length.'"'; ?>/>
+            <input type="number" min="1" max="100" name="min_length" placeholder="longeur minimale" required <?php if(isset($min_length)) echo 'value="'.$min_length.'"'; ?>/>
+            <input type="number" min="1" max="100" name="max_length" placeholder="longeur maximale" required <?php if(isset($max_length)) echo 'value="'.$max_length.'"'; ?>/>
             <input type="submit" value="Générer" name="generate"/>
         </form>
         
