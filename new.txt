@@ -1,8 +1,8 @@
-intervertir 
-Que-ce-que un ASCII code ?
-Le code source du générateur
+commit : swap ascii doc and code sample
 
-lire a quoi ca sert + exemple pratique
+performance :
+
+lire à quoi ca sert + exemple pratique
 dire que c'est en php
 dire ce qu'est php en deux mots
 
